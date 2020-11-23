@@ -93,7 +93,7 @@ class SelectFields
                     $query = $customQuery(self::$args, $query);
                 }
 
-                $query->select($select);
+                // $query->select($select);
                 $query->with($with);
             };
         }
